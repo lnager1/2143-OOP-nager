@@ -6,8 +6,8 @@
 
 #### Image:
 
-<img src="Professional Photo.jpeg" width="300">
+<img src="./Pictures/Professional Photo.jpeg" width="300">
 
 #### Avatar:
 
-<img src="image.png" width="300">
+<img src="./Pictures/image.png" width="300">
