@@ -13,7 +13,7 @@ This program implements a circular queue based on an array. It does more stuff, 
 
 ### Instructions
 
-- This program does not require any non standard libraries
+- This program does not require any non standard libraries.
 
 ### Example Command
 
