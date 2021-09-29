@@ -1,4 +1,4 @@
-## P01 - myVector
+## P02 - myVector
 ### Lindsey Nager
 ### Description:
 
