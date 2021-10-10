@@ -1,0 +1,116 @@
+Testing my default emojis for Rock Paper Scissors Lizard Spock
+==============================================================
+Rock: 🗻
+Paper: 📃
+Scissors: 🔪
+Lizard: 🐸
+Spock: 🖖
+
+
+Testing Random Number Generators
+==============================================================
+
+Using Rand() builtin
+====================
+0.046 0.063 0.059 0.046 0.052 0.044 0.042 0.048 0.039 0.053 0.061 0.054 0.049 0.049 0.05 0.048 0.046 0.051 0.046 0.054 
+
+Using <random> header
+====================
+0.045 0.051 0.051 0.046 0.047 0.05 0.039 0.054 0.058 0.059 0.064 0.047 0.039 0.071 0.052 0.042 0.055 0.041 0.047 0.042 
+
+
+Testing Hand Static class RandHand
+==============================================================
+🗻 🔪 📃 🐸 🗻 📃 🐸 📃 🐸 🗻 
+🐸 📃 🖖 🔪 📃 🗻 📃 📃 🗻 📃 
+🗻 🖖 🔪 🔪 🔪 🖖 🗻 📃 📃 📃 
+🔪 🐸 🖖 🔪 🖖 🐸 🔪 📃 🗻 🖖 
+🔪 🗻 📃 🔪 🖖 🗻 🐸 🗻 🐸 🔪 
+🐸 📃 📃 🖖 🖖 🐸 📃 🐸 🐸 🔪 
+🐸 🐸 🖖 🐸 📃 🐸 🗻 🖖 🗻 📃 
+🔪 🖖 🔪 📃 📃 🔪 🐸 📃 🖖 🐸 
+📃 🗻 🐸 🖖 🖖 🐸 📃 🔪 🗻 🔪 
+🖖 🗻 🗻 🐸 📃 🗻 📃 🖖 🖖 📃 
+🐸 : 0.21
+📃 : 0.26
+🔪 : 0.17
+🖖 : 0.18
+🗻 : 0.18
+
+
+Hand Static class methods for emojis, and reverse lookup
+====================================
+🗻
+📃
+🔪
+🐸
+🖖
+rock
+paper
+scissors
+lizard
+spock
+
+
+Rock Paper Scissors Lizard Spock Class
+====================================
+Rock: 🗻
+paper: 📃
+
+
+Generate Two Unique Pairs. 
+====================================
+🐸+🗻 vs 📃+🐸
+
+
+Test Cases
+🔪+📃 v.s 📃+🗻	Player one's 🔪 beat player two's 📃
+
+🐸+📃 v.s 🐸+🖖	Player one's 📃 beat player two's 🖖
+
+🐸+📃 v.s 🗻+📃	Player two's 🗻 beat player one's 🐸
+
+🐸+🔪 v.s 🗻+📃	Player two's 🗻 beat player one's 🐸
+
+🖖+📃 v.s 🐸+🖖	Player two's 🐸 beat player one's 🖖
+
+📃+🐸 v.s 🗻+🐸	Player one's 📃 beat player two's 🗻
+
+🗻+🐸 v.s 🖖+🐸	Player two's 🖖 beat player one's 🗻
+
+🔪+🐸 v.s 🗻+🖖	Player two's 🗻 beat player one's 🔪
+
+🗻+🔪 v.s 🔪+🖖	Player one's 🗻 beat player two's 🔪
+
+🐸+🖖 v.s 📃+🔪	Player one's 🐸 beat player two's 📃
+
+🖖+🗻 v.s 🔪+🖖	Player one's 🖖 beat player two's 🔪
+
+🔪+📃 v.s 🐸+🔪	Player one's 🔪 beat player two's 🐸
+
+🖖+🐸 v.s 🗻+🔪	Player one's 🖖 beat player two's 🗻
+
+🐸+🗻 v.s 🔪+📃	Player two's 🔪 beat player one's 🐸
+
+🔪+🗻 v.s 🔪+🖖	Player two's 🖖 beat player one's 🗻
+
+📃+🗻 v.s 🗻+📃	Player one's 📃 beat player two's 🗻
+
+🔪+🗻 v.s 🗻+📃	Player two's 🗻 beat player one's 🔪
+
+🔪+🐸 v.s 🗻+📃	Player two's 🗻 beat player one's 🔪
+
+🐸+🖖 v.s 🗻+🐸	Player two's 🗻 beat player one's 🐸
+
+🗻+📃 v.s 🗻+📃	There was a tie 
+
+📃+🗻 v.s 🗻+📃	Player one's 📃 beat player two's 🗻
+
+🗻+🖖 v.s 🐸+🖖	Player one's 🗻 beat player two's 🐸
+
+🖖+🐸 v.s 📃+🗻	Player two's 📃 beat player one's 🖖
+
+🔪+🖖 v.s 🗻+🔪	Player two's 🗻 beat player one's 🔪
+
+📃+🔪 v.s 🐸+🖖	Player two's 🐸 beat player one's 📃
+
