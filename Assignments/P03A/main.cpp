@@ -1,3 +1,23 @@
+/*****************************************************************************
+*                    
+*  Author:           Lindsey
+*  Email:            nager.lindsey@gmail.com
+*  Label:            P03A
+*  Title:            RPSLS
+*  Course:           CMPS 2143-101
+*  Semester:         Fall 2021
+* 
+*  Description:
+*        This program allows for random generation of player hands to play against
+*        each other in RPSLS
+*  
+*  Usage:
+*        N/A
+* 
+*  Files:   
+*       main.cpp    :   driver program
+*****************************************************************************/
+
 #include <iostream>
 #include <functional> 
 #include <map>
