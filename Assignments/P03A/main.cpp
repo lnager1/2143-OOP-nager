@@ -107,6 +107,18 @@ struct Player
             weapon2 = Hands::RandHand();
         }
     }
+    /**
+    * Public : operator/
+    * 
+    * Description:
+    *      overloads the greater than operator to compare to player's hands
+    * 
+    * Params:
+    *      Player other      :   player to be compared to original    
+    *
+    * Returns:
+    *      bool       :   P1 wins return true, all other cases return false
+    */
     bool operator> (Player other)
     {
         // True P1 wins
@@ -365,6 +377,19 @@ class RPSLS : public DieRoll, public Hands
         }
 };
 
+/**
+* Public : winner
+* 
+* Description:
+*      determines the winner between two players
+* 
+* Params:
+*      Player p1    :   first player
+*      Player p2    :   second player
+*
+* Returns:
+*      no return type
+*/
 void winner(Player p1, Player p2)
 {
     if(p1 > p2)
@@ -526,14 +551,17 @@ int main()
 
     std::cout << "\n\nTest Cases\n";
 
+    // Loops through and creates two new player instances
     for(int i = 0; i < 25; i++)
     {
         Player useP1;
         Player useP2;
 
+        // Prints random values generated
         std::cout << useP1.weapon1 << "+" << useP1.weapon2 << " v.s " 
             << useP2.weapon1 << "+" << useP2.weapon2 << '\t';
 
+        // Determines winner
         winner(useP1, useP2);
     }
     return 0;
