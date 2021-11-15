@@ -2,7 +2,8 @@
 ### Lindsey Nager
 ### Description:
 
-This program implements a myVecotr class that pushes and pops to front and back
+This program allows for random generation of player hands to play against
+each other in RPSLS
 
 ### Files
 
