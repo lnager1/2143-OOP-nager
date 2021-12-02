@@ -1,1 +1,1 @@
-<img src="./Pictures/Untitled Diagram.jpeg" width="300">
+![UML](Untitled Diagram.jpg)
