@@ -9,8 +9,9 @@ This program runs a simulated fight between a random number of attackers and a c
 |   #   | File       | Description                      |
 | :---: | ---------- | -------------------------------- |
 |   1   | main.cpp   | Main driver of my list program . |
-|   2   | output.dat | output printed to console        |
-|   3   | banner.txt | banner page                      |
+|   2   | input.dat   | input accepted in program |
+|   3   | output.dat | output printed to console        |
+|   4   | banner.txt | banner page                      |
 
 
 ### Instructions

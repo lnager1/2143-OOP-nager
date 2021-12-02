@@ -8,6 +8,7 @@
 |   4   | [P02](https://github.com/lnager1/2143-OOP-nager/tree/main/Assignments/P02/P02) | myVector Class 2         |
 |   5  | [P03A](https://github.com/lnager1/2143-OOP-nager/tree/main/Assignments/P03A) | RPSLS         |
 |   6   | [P03B](https://github.com/lnager1/2143-OOP-nager/tree/main/Assignments/P03B) | Boliverse         |
+|   7   | [A06](https://github.com/lnager1/2143-OOP-nager/tree/main/Assignments/A06) | UML         |
 
 
 
