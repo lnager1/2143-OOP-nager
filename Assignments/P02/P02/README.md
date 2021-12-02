@@ -12,7 +12,8 @@ This program implements a myVecotr class that pushes and pops to front and back
 |   2   | myVector.h   | Method definitions               |
 |   3   | myVector.cpp | Method implementations           |
 |   4   | input.dat    | data file to collect values from |
-|   1   | banner.txt   | banner page                      |
+|   5   | output.dat    | info printed to console and file |
+|   6   | banner.txt   | banner page                      |
 
 
 ### Instructions
